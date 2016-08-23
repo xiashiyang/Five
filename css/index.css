@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+header{ padding:25px 0px; position:fixed;width:100%; background:rgba(255,255,255,0.3); z-index:99;}
+header .logo{ float:left; margin-left:30px;}
+header nav{  position:absolute; left:54%;top:0; transform:translateX(-50%); width:1088px; }
+header nav ul li{ display:inline-block; line-height:100px; margin:0px 16px; text-transform:uppercase;}
+header nav ul li a{ color:#000;}
+header nav ul li a:hover{ color:#e0a240;}
+header .icons{ float:right; margin-right:30px;}
+header .icons a{ color:#000;}
+header .icons i{ padding:0px 12px; line-height:50px;}
+
+.banner{ background:url(../images/oshin-slide-1.jpg) no-repeat center center;height:824px; background-size:cover; position:relative;} 
+.banner h4{ font:20px/80px Arial;position:absolute; top:300px; left:50%; transform:translateX(-50%); animation:bannerh4 1s;}
+.banner h2{ position:absolute; left:50%; transform:translateX(-50%);top:378px; animation:bannerh2 1s;}
+.banner h2 a{ display:inline-block; width:350px; height:100px; font: bold 38px/100px "微软雅黑"; color:#000; border:7px #000 solid; text-align:center;}
+.banner h2 a:hover{ color:#e0a240;border:7px #e0a240 solid; }
+.banner p{ font:22px/100px Arial; position:absolute; right:50%; transform:translateX(50%);top:485px; animation:bannerp 1s;}
+		
+.page1{ text-align:center; padding-top:70px;}
+.page1 span{ position:relative; line-height:74px; color:#e0a240;}
+.page1 span:before{ content:''; width:20px; height:1px; background-color:#000; position:absolute; left:-46px; top:50%;}	
+.page1 span:after{ content:''; width:20px; height:1px; background-color:#000; position:absolute; left:43px; top:50%;}
+.page1 span i{ transform:rotate(45deg);}
+.page1 div{ width:80%; margin:0 auto;}
+.page1 div img{ display:block; width:100%;}
+.page1 h2{ font:24px/70px Arial; color:#222;}
+.page1 h3{ font:14px/64px Arial;color:#5f6263;}
+.page1 p{ font:16px/30px "微软雅黑";color:#5f6266; margin-bottom:90px;}
+
+.page1 ul{ width:100%; height:240px; }
+.page1 ul li{ height:120px; float:left;width:25%; padding-top:56px; padding-bottom:64px;}
+.page1 ul li div{ transition:all 1s;}
+.page1 ul li:nth-child(2n+1){ background-color:#f2f5f8;}
+.page1 ul li:nth-child(2n){ background-color:#edf0f2;}
+.page1 ul li i{ font-size:72px;}
+.page1 ul li div:hover{ margin-top:-40px;}
+.page1 ul li h5{ font: bold 12px/32px "微软雅黑"; color:#282929;}
+
+.page2{ width:100%; padding-top:90px; padding-bottom:80px}
+.page2 .inner{ width:1220px; height:696px;}
+.page2 .inner .left{ float:left; width:405px;}
+.page2 .inner li{ width:405px; height:138px; margin-bottom:60px;}
+.page2 .inner ul li .artleft{ float:left; width:60px; }
+.page2 .inner ul li .artright{ float:right; width:345px; }
+.page2 .inner ul li i{display:inline-block; font:36px/40px Arial; color:#e1a752;}
+.page2 .inner ul li i:hover{ transform: rotate(360deg);transition:all 1s; }
+.page2 .inner ul li h3{ font: bold 20px/30px "微软雅黑"; color:#282929;}
+.page2 .inner ul li p{ font:12px/26px "微软雅黑"; color:#717374;}
+.page2 .inner .midpic{ float:left; width:349px; height:696px;}
+.page2 .inner .right{ float:right; margin-left:60px;}
+
+.page3 img{ display:block; width:100%;}
+
+.page4{ margin:0 auto; text-align:center; padding-top:74px;}
+.page4 h3{font:24px/78px Arial; color:#222;}
+.page4 p{font:14px/58px Arial;color:#5f6263;}
+.page4 span{position:relative;color:#e0a240; line-height:72px; }
+.page4 span:before{ content:''; width:20px; height:1px; background-color:#000; position:absolute; left:-46px; top:50%;}	
+.page4 span:after{ content:''; width:20px; height:1px; background-color:#000; position:absolute; left:43px; top:50%;}
+.page4 span i{ transform:rotate(45deg);}
+
+.page5{ margin:0 auto; text-align:center; padding:50px 0px;}
+.page5 ul li{display:inline-block; margin:0px 22px;}
+.page5 ul li a{ color:#222; font:bold 12px/42px "微软雅黑"; }
+.page5 ul .li-all a{ display:block; width:62px; height:42px; border:1px solid #e0a240; color:#e0a240;}
+
+.page6{height:555px;}
+.page6 .inner{width:1210px;}
+.page6 .inner ul li{ float:left; margin-right:40px; margin-bottom:40px;}
+.page6 .inner ul .shangqu{ display:block; margin:0;}
+.page6 .inner ul li a{ display:block;width:374; height:221px;}
+
+.page7{ padding-bottom:80px;}
+.page7 .inner{ width:1200px; text-align:center;}
+.page7 .inner a{ display:inline-block; width:158px; height:44px; border:2px solid #000; font:16px/44px Arial; color:#000;}
+.page7 .inner a:hover{ color:#fff; background:#e0a240; border:2px solid #fff;}
+	
+.page8{ background:#f2f3f8; padding:70px 0px;}
+.page8 .inner{ width:1200px; text-align:center;}
+.page8 .inner i{ font:90px/120px "微软雅黑"; color:#dfdfdf; animation:twitter 3s infinite;}	
+.page8 .inner h2{ font:normal 18px/44px "微软雅黑"; color:#606364;}
+.page8 .inner a{ font:16px/36px "微软雅黑"; color:#e0a240;}
+.page8 .inner h3{ font: bold 12px/40px "微软雅黑";}
+.page8 .inner span{ color:#e0a240;}
+.page8 .inner i:hover{ color:#fff;}
+
+.page9{ margin:0 auto; text-align:center; padding-top:70px; padding-bottom:55px;}
+.page9 h3{font:24px/78px Arial; color:#222;}
+.page9 p{font:14px/58px Arial;color:#5f6263;}
+.page9 span{position:relative;color:#e0a240; line-height:72px; }
+.page9 span:before{ content:''; width:20px; height:1px; background-color:#000; position:absolute; left:-46px; top:50%;}	
+.page9 span:after{ content:''; width:20px; height:1px; background-color:#000; position:absolute; left:43px; top:50%;}
+.page9 span i{ transform:rotate(45deg);}
+
+.page10{ padding-bottom:90px;}
+.page10 .inner{ width:1680px; margin:0 auto;  }
+.page10 .inner img{ margin:0px 20px; text-align:center;}
+
+.page11{ background: url(../images/abacc_03.jpg); padding:86px 0px;}
+.page11 .inner{ width:1200px; text-align:center;}
+.page11 .inner h2{ color:#fff; font:24px/54px "微软雅黑";}
+.page11 .inner h3{color:#fff; font:16px/46px "微软雅黑";}
+.page11 .inner h4{color:#fff;}
+.page11 .inner a{ display:inline-block; width:112px; height:44px; color:#fff; font:14px/44px "微软雅黑"; background:#f0b452; margin-top:18px;}
+.page11 .inner a:hover{ color:#fff; background-color:#000; transition:all 1s;}
+
+.page12{ background:#f2f3f8; height:437px;}
+.page12 .inner{ width:1200px;}
+.page12 .inner .botleft{ width:234px; float:left; margin-top:70px;}
+.page12 .inner .botleft p{ color:#aaaaaf; font:12px/24px "微软雅黑"; margin:30px 0px;}
+.page12 .inner .botleft i{ display:block; width:30px; height:30px; color:#e0a240; font:12px; line-height:30px; border:1px #e0a240 solid; border-radius:50%;text-align:center; float:left; margin-right:12px;}
+.page12 .inner .botleft i:hover{ background:#e0a240; color:#fff;}
+
+.page12 .inner .midleft{ width:254px; float:left;margin-top:70px; margin-left:70px;}
+.page12 .inner .midleft p{color:#aaaaaf; margin:16px 0px; font:11px/18px "微软雅黑";}
+.page12 .inner .midleft h6{ font:12px/22px "微软雅黑"; margin-bottom:27px;}
+.page12 .inner .midleft .midleftimg{ float:left;}
+.page12 .inner .midleft div{ float:left;}
+.page12 .inner .midleft span{ font-size:12px;color:#aaaaaf; top:0; line-height:0;}
+.page12 .inner .midleft span:hover{color:#f0b452;}
+.page12 .inner .midleft .midleftbox{ height:46px; }
+.page12 .inner .midleft .midleftbox img{ display:block; width:64px; height:46px; }
+
+.page12 .inner .midright{ float:left; width:207px;margin-top:70px; margin-left:60px;}
+.page12 .inner .midright h6{font:12px/22px "微软雅黑";}
+.page12 .inner .midright p{ font:12px/46px "微软雅黑";}
+.page12 .inner .midright a{ display:inline-block;color:#aaaaaf;transition:all 0.6s;}
+.page12 .inner .midright a:hover{transform:translateX(12px); color:#f0b452;}
+.page12 .inner .botright{ float:left; width:280px;margin-top:70px;}
+.page12 .inner .botright h6{font:12px/22px "微软雅黑"; margin-bottom:20px;}
+.page12 .inner .botright img{ display:block; width:70px; height:70px; margin-right:20px; float:left; margin-bottom:12px;}
+
+footer .inner{ width:1200px; text-align:center;}
+footer .inner p{ font:12px/70px "微软雅黑"; color:#959595;}
+
+@keyframes bannerh4{
+	0%{ top:0;}
+	100%{top:300px;}
+	}
+@keyframes bannerh2{
+	0%{ left:0%;}
+	100%{ left:50%;}
+	}
+@keyframes bannerp{
+	0%{ right:0;}
+	100%{right:50%;}
+	}
+@keyframes twitter{
+	0%{ text-shadow:0px 0px 20px #fff;}
+	50%{ text-shadow:0px 0px 50px #e0a240;}
+	100%{ text-shadow:0px 0px 20px #fff;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+	

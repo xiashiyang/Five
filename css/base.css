@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,p,a,input,img,ul,li,h1,h2,h3,h4,h5,h6{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none;}
+img{ border:0;}
+input{ border:0;}
+body{ font-family:Arial "微软雅黑";}
+.inner{  margin:0 auto;}
+.clear{ clear:both;}
